@@ -32,7 +32,7 @@ export const Product = () => {
       <div className="py-20 vbrk" data-aos="fade-up">
         <Swiper
           loop={true}
-          modules={[Autoplay]}
+          // modules={[Autoplay]}
           autoplay={{
             delay: 1000,
             disableOnInteraction: false,

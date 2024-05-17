@@ -98,7 +98,9 @@ a:hover{
     height: 100%;
 }
 .ecosystem {
-    padding:50px 36px;
+    padding: 50px 36px;
+    min-height: 445px;
+    overflow: hidden;
 }
 .no-x li {
     position: relative;
@@ -207,6 +209,24 @@ height: 0;
     border-radius: 17px;
     border: 1px solid rgb(80 145 221 / 56%);
 }
+@media screen and (max-width:1600px) {
+.ecosystem {
+    padding: 50px 25px;
+}
+.ecosystem p {
+    font-size: 19px;
+}
+}
+@media screen and (max-width:1530px) {
+    .ecosystem p {
+        font-size: 18px;
+    }
+    }
+    @media screen and (max-width:1530px) {    
+    .ecosystem {
+        min-height: 393px;
+    } 
+}   
 @media screen and (max-width:1300px) {
     .border-x {
         width: 96%;
@@ -261,6 +281,11 @@ height: 0;
     .buex {
         z-index: -1;
     }
+}
+@media screen and (max-width:1150px) {
+.ecosystem {
+    min-height: 341px;
+}
 }
 @media screen and (max-width:1023px) {
 .bnxp {
@@ -404,7 +429,7 @@ nav.nww{
     font-size: 14px;
 }
 .bg-x-crical {
-    top: -23%;
+    top: -39%;
 }
 .buex {
     z-index: -1;
@@ -429,5 +454,10 @@ nav.nww{
     padding: 10px;
     margin-top: 30px;
 }
-
+.ecosystem {
+    min-height: 298px;
+}
+.Flagship .swiper-wrapper {
+    padding-left: 10px;
+}
 }
