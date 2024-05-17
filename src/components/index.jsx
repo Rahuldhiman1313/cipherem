@@ -2,12 +2,12 @@ import { Header } from "./header";
 import { Footer } from "./footer";
 import { Banner } from "./banner";
 import { ClientSlider } from "./clientslider";
-import { Product } from "./Product";
-import { Metrics } from "./Metrics";
-import { Thenative } from "./Thenative";
-import { Piechat } from "./Piechat";
-import { Mechanism } from "./Mechanism";
-import { Technology } from "./Technology";
+import { Product } from "./product";
+import { Metrics } from "./metrics";
+import { Thenative } from "./thenative";
+import { Piechat } from "./piechat";
+import { Mechanism } from "./mechanism";
+import { Technology } from "./technology";
 export {
   Header,
   Footer,
