@@ -2,32 +2,432 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body{
+    background-color: #0E0C15;
+    font-family: "Urbanist", sans-serif !important;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+h1,h2,h3,h4,h5{
+    color: #fff;
+}
+p{
+    color: #A9A9BB;
+}
+a{
+    transition: 0.5s;
+}
+a:hover{
+    transition: 0.5s;
+}
+.border-x {
+    background: -webkit-linear-gradient(0deg, #30b0dd 0, #b92fde 100%);
+    background: -moz-linear-gradient(90deg, #30b0dd 0, #b92fde 100%);
+    background: linear-gradient(90deg, #30b0dd 0, #b92fde 100%);
+    background-position: 50% 50%;
+    max-width: 1280px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 2px;
+    border: 0;
+}
+.vbx {
+    background-color: #0e0c15;
+    border-radius: 10px;
+}
+.vbx a:hover {
+    color: #31b0dd;
+}
+.main-banner h1
+{
+    text-shadow: 0px 4px 40px 0px #9B5CDE66;
+}
+.main-banner p
+{
+    text-shadow: 0px 4px 40px 0px #9B5CDE66;
+}
+.Started-x 
+{
+    background: -webkit-linear-gradient(-90deg, #48c2c4 0, #9664d4 100%);
+  background: -moz-linear-gradient(180deg, #48c2c4 0, #9664d4 100%);
+  background: linear-gradient(180deg, #48c2c4 0, #9664d4 100%);
+  background-position: 50% 50%;
+  box-shadow: 0px 5px 16px 0px #9B5CDE66;
+}
+.Started-x a
+{
+    background: -webkit-linear-gradient(-90deg, #4c97b5 0, #4331ac 100%);
+  background: -moz-linear-gradient(180deg, #4c97b5 0, #4331ac 100%);
+  background: linear-gradient(180deg, #4c97b5 0, #4331ac 100%);
+  background-position: 50% 50%;
+}
+.Started-x2 a {
+    border: 3px solid #fff;
+}
+.Started-x2 a:hover {
+    background-color: #4765b0;
+    border: 3px solid #53b3c6;
+}
+.Started-x a:hover {
+    background: #4961ad;
+}
+.main-banner img {
+    object-fit: cover;
+}
+.See-x{
+    background: -webkit-linear-gradient(-90deg, #48c2c4 0, #9664d4 100%);
+    background: -moz-linear-gradient(180deg, #48c2c4 0, #9664d4 100%);
+    background: linear-gradient(180deg, #48c2c4 0, #9664d4 100%);
+    background-position: 50% 50%;
+    box-shadow: 0px 5px 16px 0px #9B5CDE66;
+    padding: 3px;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.See-x a{
+    background:#0E0C15;
+    color:#fff;
+}
+.See-x a:hover {
+    background-color: #221164;
+}
+.bx-x {
+    width: 100%;
+    height: 100%;
+}
+.ecosystem {
+    padding:50px 36px;
+}
+.no-x li {
+    position: relative;
+    font-size: 18px;
+    padding: 13px 0;
+    width: 88%;
+    float: inline-end;
+}
+.no-x li:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background: -webkit-linear-gradient(0deg, #248981 0, #5d5691 100%);
+    background: -moz-linear-gradient(90deg, #248981 0, #5d5691 100%);
+    background: linear-gradient(90deg, #248981 0, #5d5691 100%);
+    background-position: 50% 50%;
+}
+.no-x li span:last-child {
+    font-weight: 500;
+}
+.no-x li:last-child:after{
+height: 0;
+}
+.bnxp {
+    padding: 24px 30px;
+}
+.cxm.vbf {
+    display: flex;
+    gap: 20px;
+}
+.cxm2 a{
+    position: relative;
+    transition: 0.3s;
+    left: 0;
   }
+.cxm2 a:hover{
+  left: 10px;
+  transition: 0.3s;
+}
+.Tech .See-x {
+    margin: 0;
+    margin-top: 0;
+}
+.bg-x-crical {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    top: -64%;
+    z-index: -1;
+}
+.Tech .ccc {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.scoial li a{
+    color:rgb(255 255 255 / 50%);
+ }
+ .scoial li a:hover{
+    color:#31b0dd;
+ }
+ .bgx {
+    border-bottom: 1px solid rgb(255 255 255 / 14%);
+    width: 100%;
+    padding-bottom: 27px;
+}
+.bg-x-crical img {
+    margin: 0 auto;
+}
+.vrs {
+    padding: 30px 0;
+}
+.bxgq a {
+    color: #fff;
+}
+.buex {
+    top: 162px;
+    right: 30px;
+}
+.cp-c{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+.vfxo {
+    flex: 0 25%;
+}
+.wqzz {
+    row-gap: 60px;
+}
+.vfxo span {
+    position: relative;
+    top: 2px;
+}
+.boxp {
+    background-color: #0e0c15;
+    padding: 24px;
+    box-shadow: 0px 0px 61px 21px rgb(50 175 221 / 21%);
+    border-radius: 17px;
+    border: 1px solid rgb(80 145 221 / 56%);
+}
+@media screen and (max-width:1300px) {
+    .border-x {
+        width: 96%;
+    }
+    .main-banner h1 {
+        font-size: 56px;
+    }
+    .main-banner p {
+        font-size: 21px;
+    }
+    .Get-x.flex.items-center.justify-center.gap-6.mt-10 a {
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+    .dlx {
+        width: 96%;
+    }
+    .Flagship h2 {
+        font-size: 44px;
+        line-height: 56px;
+    }
+    .Flagship p {
+        font-size: 16px;
+    }
+    .See-x a {
+        font-size: 14px;
+    }
+    .ecosystem {
+        padding: 40px 30px;
+    }
+   .vbrk h3 {
+        font-size: 25px;
+    }
+    .Metrics {
+        width: 96%;
+    }
+    .mlx h3 {
+        font-size: 34px;
+    }
+    .mlx p {
+        font-size: 17px;
+    }
+    .no-x li {
+        font-size: 16px;
+    }
+    .scoial li a {
+        font-size: 16px;
+    }
+    .bg-x-crical {
+        top: -93%;
+    }
+    .buex {
+        z-index: -1;
+    }
+}
+@media screen and (max-width:1023px) {
+.bnxp {
+    padding: 24px 17px;
+}
+.Flagship h2 {
+    font-size: 38px;
+    line-height: 50px;
+}
+.Flagship.dxx {
+    margin-top: 86px;
+}
+.cxm h4 {
+    font-size: 20px;
+}
+.Flagship p {
+    font-size: 14px;
+}
+.cfes{
+    left: 2px;
+}
+.cxm2 img {
+    margin: 0;
+    width: 41px;
+    position: relative;
+    bottom: 6px;
+}
+.mlx p {
+    font-size: 15px;
+    width: 82%;
+}
+.mlx h3 {
+    font-size: 31px;
+}
+.cp-c {
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+.vfxo strong {
+    font-size: 14px;
+}
+.vfxo {
+    gap: 8px;
+}
+.ecosystem img {
+    width: 53px;
+    height: 53px;
+    object-fit: contain;
+}
+.vbrk h3 {
+    font-size: 23px;
+}
+}
+@media screen and (max-width:767px) {
+    .vbx {
+        padding: 11px;
+    }
+    .pi{
+    display: none;
+}
+nav.nww{
+    top: 14px;
+}
+.main-banner h1 {
+    font-size: 42px;
+    line-height: 50px;
+}
+.main-banner p {
+    font-size: 19px;
+}
+.Get-x.flex.items-center.justify-center.gap-6.mt-10 a {
+    font-size: 15px;
+    padding: 7px 30px;
+}
+.Started-x {
+    padding: 3px;
+}
+.Started-x2 a {
+    border: 2px solid #fff;
+}
+.Flagship h2 {
+    font-size: 28px;
+    line-height: 35px;
+}
+.unit {
+    display: block;
+    margin: 0;
+}
+.unit ul {
+    display: block;
+    overflow: hidden;
+}
+.mlx h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.mlx p {
+    font-size: 14px;
+    width: 98%;
+}
+.no-x li {
+    width: 100%;
+}
+.Metrics .grid {
+    display: block;
+}
+.bnxp {
+    padding: 20px 17px;
+    margin: 0 0 26px 0;
+}
+.cxm2 img {
+    margin-right: 30px;
+}
+.cfes img {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.cxa img {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+.vfxo {
+    flex: 0 50%;
+}
+.wqzz {
+    row-gap: 25px;
+}
+.Flagship br {
+    display: none;
+}
+.vfxo:last-child {
+    flex: 1;
+}
+.xde {
+    margin-top: 61px;
+}
+.Tech .ccc {
+    font-size: 14px;
+}
+.bg-x-crical {
+    top: -23%;
+}
+.buex {
+    z-index: -1;
+    display: none;
+}
+.bgx img {
+    margin: 0 auto;
+}
+.bgx .flex.justify-end {
+    justify-content: center;
+    margin-top: 17px;
+}
+.bnch .flex.justify-end {
+    justify-content: center;
+    margin-top: 17px;
+}
+.bnch{
+    text-align: center;
+}
+.boxp {
+    height: 290px;
+    padding: 10px;
+    margin-top: 30px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
 }
