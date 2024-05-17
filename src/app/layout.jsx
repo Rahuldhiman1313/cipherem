@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+
 import "./globals.css";
 import { Footer, Header } from "@/components";
 
@@ -17,17 +18,11 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet"
         ></link>
-        <link
-          href="https://unpkg.com/aos@2.3.1/dist/aos.css"
-          rel="stylesheet"
-        ></link>
       </head>
       <body className={inter.className}>
         <Header />
         {children}
         <Footer />
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>AOS.init();</script>
       </body>
     </html>
   );
