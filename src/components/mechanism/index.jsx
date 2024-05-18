@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import TokenDiagrams from "@/images/TokenDiagrams.png";
+import TokenDiagrams from "@/images/Token-Diagrams.svg";
 import { PercentageCart } from "./Chart";
 
 export const Mechanism = () => {

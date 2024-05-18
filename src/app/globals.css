@@ -31,6 +31,76 @@ a:hover{
     padding: 2px;
     border: 0;
 }
+/* Add these styles to your CSS file or within a <style> tag */
+
+@keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideOut {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .navbar-active {
+    display: flex;
+    animation: slideIn 0.3s forwards;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 30;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  
+  .navbar-inactive {
+    animation: slideOut 0.3s forwards;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: 0.3s;
+    opacity: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-active,
+    .navbar-inactive {
+      display: flex !important;
+      animation: none !important;
+      transform: none !important;
+      position: static;
+      width: auto;
+      height: auto;
+      background-color: transparent;
+    }
+  }
+  
+  .cross-icon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    cursor: pointer;
+    z-index: 31;
+  }
+  
 .vbx {
     background-color: #0e0c15;
     border-radius: 10px;
@@ -162,6 +232,9 @@ height: 0;
     font-weight: 600;
     font-size: 20px;
 }
+.Tech .ccc:hover {
+    color: #57b0c8;
+}
 .scoial li a{
     color:rgb(255 255 255 / 50%);
  }
@@ -208,6 +281,9 @@ height: 0;
     box-shadow: 0px 0px 61px 21px rgb(50 175 221 / 21%);
     border-radius: 17px;
     border: 1px solid rgb(80 145 221 / 56%);
+}
+.recharts-responsive-container {
+    font-size: 11px;
 }
 @media screen and (max-width:1600px) {
 .ecosystem {
@@ -344,18 +420,53 @@ height: 0;
     .vbx {
         padding: 11px;
     }
-    .pi{
-    display: none;
+    .border-x {
+        width: 90%;
+    }
+    .get-v {
+        width: 90%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+.nww ul {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+    width: 100%;
+    margin: 0;
+    
+}
+#navbar-sticky {
+    background: -webkit-linear-gradient(45deg, #000000 0, #000000 27%, #B062E8 100%, rgba(194,123,160,0) 100%);
+    background: -moz-linear-gradient(45deg, #000000 0, #000000 27%, #B062E8 100%, rgba(194,123,160,0) 100%);
+    background: linear-gradient(45deg, #000000 0, #000000 27%, #B062E8 100%, rgba(194,123,160,0) 100%);
+    background-position: 50% 50%;
+    display: flex;
+}
+.nww ul li {
+    flex: 100%;
+}
+.nww ul li a {
+    font-size: 40px;
+    text-align: left;
+    font-weight: 300;
+}
+.nww .pi{
+    display: none !important;
 }
 nav.nww{
     top: 14px;
 }
 .main-banner h1 {
-    font-size: 42px;
-    line-height: 50px;
+    font-size: 33px;
+    line-height: 46px;
 }
 .main-banner p {
-    font-size: 19px;
+    font-size: 18px;
 }
 .Get-x.flex.items-center.justify-center.gap-6.mt-10 a {
     font-size: 15px;
@@ -367,9 +478,21 @@ nav.nww{
 .Started-x2 a {
     border: 2px solid #fff;
 }
+.Flagship {
+    width: 90%;
+    margin: 0 auto;
+}
 .Flagship h2 {
     font-size: 28px;
     line-height: 35px;
+    font-weight: 600;
+}
+.See-x {
+    padding: 1px;
+    margin-top: 29px;
+}
+.See-x a {
+    font-size: 13px;
 }
 .unit {
     display: block;
@@ -382,13 +505,18 @@ nav.nww{
 .mlx h3 {
     font-size: 28px;
     margin-bottom: 10px;
+    text-align: center;
 }
 .mlx p {
     font-size: 14px;
     width: 98%;
+    text-align: center;
 }
 .no-x li {
     width: 100%;
+}
+.Metrics {
+    width: 90%;
 }
 .Metrics .grid {
     display: block;
@@ -454,10 +582,38 @@ nav.nww{
     padding: 10px;
     margin-top: 30px;
 }
-.ecosystem {
-    min-height: 298px;
+.vbrk h3 {
+    font-size: 23px;
+    padding: 10px 0;
 }
-.Flagship .swiper-wrapper {
-    padding-left: 10px;
+.ecosystem {
+    min-height: 280px;
+    padding: 22px 22px;
+}
+.cxm.vbf {
+    padding: 8px 0;
+}
+.xde.Flagship {
+    margin-top: 5em;
+    width: 100%;
+}
+.cp-c {
+    display: block;
+    width: 11px;
+    height: 11px;
+}
+.r-tech.Flagship {
+    margin-top: 6em;
+}
+
+.recharts-responsive-container {
+    font-size: 11px;
+}
+.bnxs {
+    margin-top: 6rem;
+}
+.bue {
+    left: 0;
+    width: 102px;
 }
 }

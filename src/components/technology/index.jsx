@@ -8,7 +8,7 @@ import lefx2 from "@/images/Union-v2.png";
 
 export const Technology = () => {
   return (
-    <div className="Flagship mt-36 relative">
+    <div className="r-tech Flagship mt-36 relative">
       <div className="bue absolute left-20 top-0">
         <Image src={lefx} alt="fd" />
       </div>

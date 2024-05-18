@@ -19,7 +19,7 @@ export const Banner = () => {
           <div className="Started-x p-1 block rounded-full">
             <a
               href="#"
-              className="font-bold text-[20px] p-3 px-10 block rounded-full text-white"
+              className="font-bold text-[16px] p-2.5 px-10 block rounded-full text-white"
             >
               Get Started
             </a>
@@ -27,7 +27,7 @@ export const Banner = () => {
           <div className="Started-x2">
             <a
               href="#"
-              className="font-bold text-[20px] p-3 px-10 block rounded-full text-white "
+              className="font-bold text-[16px] p-2.5 px-10 block rounded-full text-white "
             >
               Read Docs
             </a>

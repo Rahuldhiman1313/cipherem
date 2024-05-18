@@ -4,7 +4,7 @@ import vhat from "@/images/vhat.png";
 
 export const Piechat = () => {
   return (
-    <div className="mlx relative mt-36">
+    <div className="bnxs mlx relative mt-36">
       <div className="Metrics max-w-screen-xl mx-auto">
         <div class="grid grid-cols-2 gap-2">
           <div data-aos="fade-up" data-aos-duration="3000">
