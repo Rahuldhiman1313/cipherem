@@ -644,9 +644,12 @@ nav.nww{
     width: 102px;
 }
 .bue img {
-    width: 180px;
+    display: none;
 }
 .bgx.xsw .mlx {
     margin-top: 80px;
+}
+.boxp {
+    box-shadow: 0px 0px 20px 10px rgb(50 175 221 / 21%);
 }
 }
