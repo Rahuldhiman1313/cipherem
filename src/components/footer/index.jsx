@@ -7,7 +7,7 @@ import { Github } from "lucide-react";
 export const Footer = () => {
   return (
     <div>
-      <div className="bgx">
+      <div className="bgx xsw">
         <div className="mlx relative mt-36">
           <div className="Metrics max-w-screen-xl mx-auto">
             <div class="grid grid-cols-2 gap-2">
