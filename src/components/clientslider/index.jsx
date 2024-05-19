@@ -34,7 +34,7 @@ export const ClientSlider = () => {
             spaceBetween: 60,
           },
           767: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 20,
           },
           1023: {
