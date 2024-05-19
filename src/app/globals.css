@@ -603,6 +603,9 @@ nav.nww{
     padding: 10px;
     margin-top: 30px;
 }
+.fgxx {
+    margin: 20px 0;
+}
 .vbrk h3 {
     font-size: 23px;
     padding: 10px 0;
@@ -636,6 +639,9 @@ nav.nww{
 .bue {
     left: 0;
     width: 102px;
+}
+.bue img {
+    width: 180px;
 }
 .bgx.xsw .mlx {
     margin-top: 80px;

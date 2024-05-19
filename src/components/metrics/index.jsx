@@ -26,7 +26,7 @@ export const Metrics = () => {
           </div>
         </div>
         <div className="unit grid grid-cols-2 gap-2 relative mt-36">
-          <div data-aos="zoom-in" data-aos-duration="1000">
+          <div className="fgxx" data-aos="zoom-in" data-aos-duration="1000">
             <Image src={cps} alt="cps" />
           </div>
           <div>
