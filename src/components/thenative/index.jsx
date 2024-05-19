@@ -6,7 +6,7 @@ import bix from "@/images/brakes.png";
 
 export const Thenative = () => {
   return (
-    <div className="Flagship dxx">
+    <div className="Flagship dxx mt-24">
       <div data-aos="zoom-in" data-aos-duration="1000">
         <h2 className=" font-medium text-[50px] text-center">
           CIP is the native utility token

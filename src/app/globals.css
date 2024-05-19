@@ -267,6 +267,9 @@ height: 0;
 .vfxo {
     flex: 0 25%;
 }
+.vfxo:last-child {
+    flex: auto;
+}
 .wqzz {
     row-gap: 60px;
 }
